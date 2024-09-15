@@ -1,0 +1,17 @@
+<h2>Staff Management</h2>
+<form id="staffForm">
+    <label for="staffName">Staff Name:</label>
+    <input type="text" id="staffName" name="staffName" required><br><br>
+
+    <label for="role">Role:</label>
+    <input type="text" id="role" name="role" required><br><br>
+
+    <button type="submit">Add Staff</button>
+</form>
+
+<script>
+document.getElementById('staffForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert('Staff added successfully!');
+});
+</script>

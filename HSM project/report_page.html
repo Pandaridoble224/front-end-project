@@ -1,0 +1,13 @@
+<h2>Reports</h2>
+<button onclick="generateReport()">Generate Report</button>
+
+<div id="reportSection">
+    <!-- Report will be generated here -->
+</div>
+
+<script>
+function generateReport() {
+    const reportSection = document.getElementById('reportSection');
+    reportSection.innerHTML = '<p>Report: All data for the month has been successfully fetched.</p>';
+}
+</script>
